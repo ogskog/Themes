@@ -3,10 +3,8 @@
   "$id": "ics://ics.schema/v1",
   "title": "Integrated Control Systems - schema for vscode",
   "type": "object",
-  "properties" {
-    "control": {
-      //  the reference is not defined
-      "$ref": "ics://control/v1"
-    }
+  "properties":  {
+    "control":  { "$ref": "ics://control/v1" },
+    "icons":    { "$ref": "ics://control.icons/v1" }
   }
 }
