@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "title": "Integrated Control Systems - schema for vscode",
+  "type": "object",
+  "properties" {
+    "control": {
+      //  the reference is not defined
+      "$ref": "ics://control/v1"
+    }
+  }
+}
